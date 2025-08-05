@@ -1,0 +1,65 @@
+import { StyleSheet } from 'react-native';
+
+export default StyleSheet.create({
+    background: {
+        flex: 1,
+    },
+    scrollContainer: {
+        flexGrow: 1,
+        justifyContent: 'center',
+        alignItems: 'center',
+        padding: 20,
+    },
+    card: {
+        backgroundColor: 'rgba(255, 255, 255, 0.85)',
+        borderRadius: 20,
+        padding: 25,
+        width: '100%',
+        shadowColor: '#000',
+        shadowOpacity: 0.2,
+        shadowOffset: { width: 0, height: 4 },
+        shadowRadius: 10,
+        elevation: 6,
+    },
+    title: {
+        fontSize: 24,
+        fontWeight: 'bold',
+        color: '#222',
+        marginBottom: 20,
+        textAlign: 'center',
+    },
+    input: {
+        backgroundColor: '#fff',
+        padding: 12,
+        borderRadius: 10,
+        borderWidth: 1,
+        borderColor: '#ccc',
+        marginBottom: 15,
+        fontSize: 16,
+        color: '#333',
+    },
+    textarea: {
+        height: 100,
+        textAlignVertical: 'top',
+        backgroundColor: '#fff',
+        padding: 12,
+        borderRadius: 10,
+        borderWidth: 1,
+        borderColor: '#ccc',
+        marginBottom: 15,
+        fontSize: 16,
+        color: '#333',
+    },
+    submitButton: {
+        backgroundColor: '#007AFF',
+        padding: 14,
+        borderRadius: 10,
+        alignItems: 'center',
+        marginTop: 10,
+    },
+    submitButtonText: {
+        color: '#fff',
+        fontWeight: 'bold',
+        fontSize: 16,
+    },
+});
